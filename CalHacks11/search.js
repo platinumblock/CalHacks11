@@ -1,3 +1,4 @@
+//format: [name, distance (mi), menu {item: price}, ratings, image URL]
 const restaurants = [
     ["Bonchon", 0.03, 
         {
@@ -8,7 +9,7 @@ const restaurants = [
             "Edamame":7.49,
             "Fried Rice":13.99,
             "Steamed Rice":2.99
-        }, 4.2
+        }, 4.2, "bonchon.png"
     ],
     ["The Melt", 0.4, 
         {
@@ -19,14 +20,14 @@ const restaurants = [
             "Tomato Soup":4.79,
             "Salad":7.99,
             "Milkshake":5.99
-        }, 4.0
+        }, 4.0, "the-melt.png"
     ],
     ["SF Pizza", 0.3,
         {
             "Chicken Wings":10.99,
             "Pizza":10.99,
             "Salad":10.99
-        }, 3.1
+        }, 3.1, "sf-pizza.jpg"
     ],
     ["Blondie's Pizza", 0.4,
         {
@@ -35,7 +36,7 @@ const restaurants = [
             "Breadsticks":9.99,
             "Chicken Wings":9.99,
             "Salad":8.99
-        }, 4.8
+        }, 4.8, "blondie's-pizza.jpeg"
     ],
     ["Abe's Pizza", 0.4,
         {
@@ -43,7 +44,7 @@ const restaurants = [
             "Pizza Slice":6.99,
             "Salad":8.99,
             "Chicken Wings":9.99,
-        }, 4.9
+        }, 4.9, "abe's-pizza.jpeg"
     ],
     ["Milan Pizza", 1.0,
         {
@@ -56,7 +57,7 @@ const restaurants = [
             "Salad":7.50,
             "Calzone":21.90,
             "Sandwich":12.00,
-        }, 3.6
+        }, 3.6, "milan-pizza.jpeg"
     ],
     ["California Pizza Kitchen", 0.3,
         {
@@ -69,7 +70,7 @@ const restaurants = [
             "Egg Rolls":14.99,
             "Tomato Soup":10.49,
             "Sandwich":17.74
-        }, 3.5
+        }, 3.5, "california-kitchen-pizza.jpg"
     ],
     ["SF Chickenbox", 1.5,
         {
@@ -78,7 +79,7 @@ const restaurants = [
             "Fried Chicken Box":15.00,
             "Steamed Rice":3.50,
             "Salad":6.00
-        }, 4.1
+        }, 4.1, "sf-chickenbox.png"
     ],
     ["The Bird", 0.4,
         {
@@ -87,7 +88,7 @@ const restaurants = [
             "Chicken Wings":8.00,
             "Salad":7.75,
             "Curly Fries":4.00
-        }, 4.3
+        }, 4.3, "the-bird.png"
     ],
     ["Krispy Krunchy Chicken", 0.4,
         {
@@ -96,7 +97,7 @@ const restaurants = [
             "French Fries":5.99,
             "Mashed Potatoes":5.99,
             "Mac and Cheese":5.99
-        }, 2.3
+        }, 2.3, "krispy-krunchy-chicken.jpg"
     ],
     ["Taqueria Castillo", 0.7,
         {
@@ -105,7 +106,7 @@ const restaurants = [
             "Quesadilla":9.25,
             "Nachos":8.75,
             "Torta":9.67
-        }, 3.7
+        }, 3.7, "taqueria-castillo.jpeg"
     ],
     ["Buena Vida Cantina", 0.3,
         {
@@ -113,7 +114,7 @@ const restaurants = [
             "Taco":5.00,
             "Burrito":18.00,
             "Ramen":26.00
-        }, 4.5
+        }, 4.5, "buena-vida-cantina.jpeg"
     ],
     ["Chipotle", 0.015,
         {
@@ -121,7 +122,7 @@ const restaurants = [
             "Tacos":3.80,
             "Quesadilla":11.95,
             "Salad":11.40
-        }, 4.0
+        }, 4.0, "chipotle.png"
     ],
     ["Tropisueno", 0.1,
         {
@@ -132,7 +133,7 @@ const restaurants = [
             "Burrito":10.45,
             "Torta":14.10,
             "Quesadilla":10.50
-        }, 3.5
+        }, 3.5, "tropisueno.jpeg"
     ],
     ["Taco Bell", 1.1,
         {
@@ -140,11 +141,9 @@ const restaurants = [
             "Taco":1.79,
             "Quesadilla":5.79,
             "Nachos":2.59
-        }, 5.0
+        }, 5.0, "taco-bell.jpeg"
     ]
 ]
-
-
 
 
 var maxPrice = 99999;
