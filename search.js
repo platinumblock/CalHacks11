@@ -141,6 +141,62 @@ const restaurants = [
             "Quesadilla":5.79,
             "Nachos":2.59
         }, 5.0, "taco-bell.jpeg", "Mexican Food", "710 3rd Street, San Francisco, CA", "An American multinational chain of fast food restaurants."
+    ],
+    ["Trader Joe's", 0.2, 
+        {
+            "Burger": 6.99,
+            "Pizza": 4.99,    
+            "Chicken Wings": 8.99,  
+            "French Fries": 2.99,   
+            "Mac and Cheese": 3.99,
+            "Fried Rice": 3.99,
+            "Salad": 4.49,
+            "Pasta": 5.99,
+            "Sandwich": 4.99, 
+            "Dumplings": 5.99, 
+            "Taco": 3.49,     
+            "Quesadilla": 6.99, 
+            "Burrito": 7.99     
+        },
+        4.5, "trader-joes.png", "Grocery Store", "10 4th St, San Francisco, CA 94103", "Popular Grocery Store in the US"
+    ],
+    ["Safeway", 1.2,
+        {
+            "Burger": 25.99,
+            "Pizza": 22.50,
+            "Chicken Wings": 19.99,
+            "French Fries": 7.99,
+            "Mac and Cheese": 15.99,
+            "Fried Rice": 18.50,
+            "Salad": 14.99,
+            "Pasta": 12.99,
+            "Sandwich": 16.50,
+            "Dumplings": 21.99,
+            "Taco": 20.50,
+            "Quesadilla": 13.99,
+            "Burrito": 22.50
+        },
+        3.9, "safeway.png", "Grocery Store", "298 King St, San Francisco, CA 94107", "Popular Grocery store in the US"
+    ],
+    ["Costco", 1.2,
+        {
+            
+            "Burger": 25.99,
+            "Pizza": 22.50,
+            "Chicken Wings": 19.99,
+            "French Fries": 7.99,
+            "Mac and Cheese": 15.99,
+            "Fried Rice": 18.50,
+            "Salad": 14.99,
+            "Pasta": 12.99,
+            "Sandwich": 16.50,
+            "Dumplings": 21.99,
+            "Taco": 20.50,
+            "Quesadilla": 13.99,
+            "Burrito": 22.50
+            
+        },
+        4.4, "costco.png", "Grocery Store", "450 10th St, San Francisco, CA 94103", "Sells objects in large quantities, resulting in high price, high quantity"
     ]
 ]
 
