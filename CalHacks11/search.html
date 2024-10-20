@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cal Hacks 11</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="overflow-y:scroll">
+    <a id="title" href="index.html">Food Master</a>
+    <a id="searchLink2" href="search.html?item=nothing">Search</a>
+    <input type="text" id="search2" placeholder="Enter a food item...">
+    <button id="submitSearch2" onclick="enterSearch()">Search</button>
+    <div id="noResults" style="display:none;">No Results...</div>
+    <select class="filter" id="priceFilter" style="left:30%">
+        <option>All Prices</option>
+        <option>Under $5</option>
+        <option>Under $10</option>
+        <option>Under $20</option>
+    </select>
+    <select class="filter" id="distanceFilter" style="left:39%">
+        <option>All Distances</option>
+        <option>Under 0.2mi</option>
+        <option>Under 0.5mi</option>
+        <option>Under 1.5mi</option>
+    </select>
+    <select class="filter" id="ratingsFilter" style="left:49.5%">
+        <option>All Ratings</option>
+        <option>Over 4.5</option>
+        <option>Over 4.0</option>
+        <option>Over 3.5</option>
+    </select>
+    <script src="search.js"></script>
+  </body>
+</html>

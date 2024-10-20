@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+body{
+    font-family: "Lexend Deca", serif;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+.food{
+    width:30%;
+    position:absolute;
+    animation:slidedown 24s linear infinite;
+    left:53%;
+}
+.food2{
+    width:30%;
+    position:absolute;
+    animation:slidedown 24s linear infinite;
+    left:82%;
+}
+@keyframes slidedown{
+    0%{top:-35%;}
+    100%{top:120%;}
+}
+#pitch1{
+    font-size:30px;
+    position:absolute;
+    left:8%;
+    top:30%;
+    background: linear-gradient(orange, rgb(255, 132, 0));
+    color:white;
+    width:38%;
+    height:10%;
+    border-radius:5px;
+    font-weight:700;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#pitch2{
+    font-size:15px;
+    position:absolute;
+    left:10%;
+    top:48%;
+}
+#search{
+    background-color:rgb(235,235,235);
+    position:absolute;
+    width:24%;
+    left:8%;
+    border-radius:5px;
+    top:58%;
+    height:7%;
+    border:none;
+    font-family: "Lexend Deca", serif;
+    padding-left:16px;
+    font-size:18px;
+    border:1px solid rgb(225,225,225);
+    transition:0.1s all;
+}
+#search:focus{
+    outline:none;
+    transform:scale(1.02);
+}
+#submitSearch{
+    font-size:20px;
+    font-weight:700;
+    position:absolute;
+    background: linear-gradient(orange, rgb(255, 132, 0));
+    color:white;
+    left:36%;
+    top:58%;
+    width:10%;
+    height:7.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Lexend Deca", serif;
+    border:none;
+    border-radius:5px;
+    transition:0.1s all;
+}
+#submitSearch:hover{
+    transform:scale(1.05);
+    cursor:pointer;
+}
+#title{
+    font-size:23px;
+    position:absolute;
+    left:3%;
+    top:5%;
+    text-decoration:none;
+    color:black;
+}
+#searchLink{
+    font-size:23px;
+    position:absolute;
+    left:44%;
+    top:5%;
+    text-underline-offset:7px;
+    color:black;
+}
+#searchLink2{
+    font-size:23px;
+    position:absolute;
+    left:90%;
+    top:5%;
+    text-underline-offset:7px;
+    color:black;
+}
+#search2{
+    background-color:rgb(235,235,235);
+    position:absolute;
+    width:26%;
+    left:30%;
+    border-radius:5px;
+    top:15%;
+    height:7%;
+    border:none;
+    font-family: "Lexend Deca", serif;
+    padding-left:16px;
+    font-size:18px;
+    border:1px solid rgb(225,225,225);
+    transition:0.1s all;
+}
+#search2:focus{
+    outline:none;
+    transform:scale(1.02);
+}
+#submitSearch2{
+    font-size:20px;
+    font-weight:700;
+    position:absolute;
+    background: linear-gradient(orange, rgb(255, 132, 0));
+    color:white;
+    left:59%;
+    top:15%;
+    width:10%;
+    height:7.5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Lexend Deca", serif;
+    border:none;
+    border-radius:5px;
+    transition:0.1s all;
+}
+#submitSearch2:hover{
+    transform:scale(1.05);
+    cursor:pointer;
+}
+.place{
+    width:50%;
+    left:22.5%;
+    height:15%;
+    position:absolute;
+    animation:fadein 0.2s forwards;
+}
+@keyframes fadein{
+    0%{transform:scale(0);}
+    100%{transform:scale(1);}
+}
+.placeImage{
+    height:100%;
+    width:15%;
+    border-radius:5px;
+    position:absolute;
+    left:15%;
+    top:0%;
+}
+.placeName{
+    position:absolute;
+    left:35%;
+    top:5%;
+    font-size:27px;
+    font-weight:700;
+}
+.placeStats{
+    position:absolute;
+    left:35%;
+    top:60%;
+    font-size:19px;
+    color:white;
+    word-spacing:10px;
+}
+.price{
+    background:linear-gradient(rgb(22, 192, 22),rgb(0, 154, 0));
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:2px;
+    padding-bottom:2px;
+    border-radius:5px;
+}
+.distance{
+    background:linear-gradient(rgb(0, 160, 223),rgb(26, 114, 222));
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:2px;
+    padding-bottom:2px;
+    border-radius:5px;
+}
+.reviews{
+    background: linear-gradient(orange, rgb(255, 132, 0));
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:2px;
+    padding-bottom:2px;
+    border-radius:5px;
+}
+.filter{
+    border:none;
+    background-color:rgb(235,235,235);
+    font-family: "Lexend Deca", serif;
+    padding:5px;
+    border-radius:5px;
+    position:absolute;
+    top:26%;
+    border:1px solid rgb(225,225,225);
+}
+.filter:hover{
+    cursor:pointer;
+}
+.filter:focus{
+    outline:none;
+}
+#noResults{
+    position:absolute;
+    width:100%;
+    left:0%;
+    text-align:center;
+    top:40%;
+    font-size:45px;
+}
